@@ -41,3 +41,6 @@
   border-radius: 50%;
   transition: .4s;
 }
+.background .container h4{
+  padding-top: 580px;
+}
