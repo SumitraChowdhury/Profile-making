@@ -1,0 +1,43 @@
+.background{
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url(./image/background.jpg);
+  transition: .4s;
+}
+.background:hover{
+  background-image: url(./image/background01.jpg);
+}
+.background .picture .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 76px;
+  left: 270px;
+  width: 470px;
+  height: 489px;
+}
+.background .picture .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: .4s;
+}
+.background .picture .imgOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 76px;
+  left: 270px;
+  width: 470px;
+  height: 489px;
+}
+.background .picture .imgOne img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: .4s;
+}
